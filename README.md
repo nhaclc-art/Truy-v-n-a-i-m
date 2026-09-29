@@ -7,14 +7,14 @@ Hướng dẫn sử dụng từng chức năng, kịch bản demo và giải th�
 ## Thông tin bàn giao
 
 ```text
-Chủ tài khoản/tổ chức GitHub: [GITHUB_OWNER]
-Tên repository: [REPOSITORY_NAME]
+Chủ tài khoản/tổ chức GitHub: [GITHUB_nhaclc]
+Tên repository: [nhaclc-art]
 URL repository: [REPOSITORY_URL]
-Học viên thực hiện: [COURSE_AUTHOR]
-Người đóng góp và vai trò: [CONTRIBUTORS]
+Học viên thực hiện: [lecanhac]
+Người đóng góp và vai trò: [GVHD: TS. Nguyễn Quốc Huy]
 Cơ sở HCMUE sử dụng: Trường Đại học Sư phạm TP.HCM, cơ sở 280 An Dương Vương
 Phiên bản bàn giao: [RELEASE_VERSION]
-Ngày kiểm thử gần nhất: [TESTED_AT]
+Ngày kiểm thử gần nhất: [29-09]
 ```
 
 Không ghi token hay mật khẩu vào file này. Trạng thái chi tiết từng tiêu chí ở mục 11.
@@ -128,7 +128,7 @@ Tại thời điểm viết (18/09/2026): `dataset_version` `ds-7ac47a589e`, 93 
 .\.venv\Scripts\python.exe -m scripts.sign_labels --reviewer "Họ tên người duyệt" --confirm-reviewed
 ```
 
-Người duyệt: Tran Dat (18/09/2026). Kết quả trên `ds-7ac47a589e`: BM25 P@5 0,5833 / R@5 0,8654 / nDCG@5 1,0000; khoảng cách 0,5167 / 0,8048 / 0,8806; kết hợp 0,5667 / 0,8553 / 0,9838. Phân tích: `HUONG_DAN.md` mục 29. So sánh ba chế độ: A = BM25, B = khoảng cách, C = kết hợp. Chỉ số: Precision@5 (vị trí thiếu tính không liên quan), Recall@5 (chia cho tổng địa điểm liên quan trong nhãn của cả phạm vi; truy vấn không có đáp án là N/A), nDCG@5 với gain 2^rel − 1. `eval/summary.md` ghi dataset version và hash của cấu hình/nhãn. Đây là đánh giá thăm dò trên mẫu nhỏ, không có ý nghĩa thống kê.
+Người duyệt: Nhaclc (18/09/2026). Kết quả trên `ds-7ac47a589e`: BM25 P@5 0,5833 / R@5 0,8654 / nDCG@5 1,0000; khoảng cách 0,5167 / 0,8048 / 0,8806; kết hợp 0,5667 / 0,8553 / 0,9838. Phân tích: `HUONG_DAN.md` mục 29. So sánh ba chế độ: A = BM25, B = khoảng cách, C = kết hợp. Chỉ số: Precision@5 (vị trí thiếu tính không liên quan), Recall@5 (chia cho tổng địa điểm liên quan trong nhãn của cả phạm vi; truy vấn không có đáp án là N/A), nDCG@5 với gain 2^rel − 1. `eval/summary.md` ghi dataset version và hash của cấu hình/nhãn. Đây là đánh giá thăm dò trên mẫu nhỏ, không có ý nghĩa thống kê.
 
 ## 8. Định vị, chỉ đường, geofence và mạng
 
