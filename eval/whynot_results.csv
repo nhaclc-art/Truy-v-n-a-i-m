@@ -1,0 +1,84 @@
+question_id,source,query_id,query,sort,radius_m,category,poi_id,poi_name,expected_reason,reason,reason_match,in_top_k,original_rank,options_considered,answered,answered_fixed_k,best_family,best_changes,best_rank,best_k,best_penalty,best_retained,unverified_dropped,elapsed_ms
+Q02-distance-osm-node-4750136821,qrels,Q02,van phong pham,distance,2000,vpp_photocopy,osm-node-4750136821,Cửa Hàng Văn Phòng Phẩm Hồng Ngọc,,RANK,,0,7,43,1,1,add_token,Thêm từ “Ngọc” (có trong tên),2,5,0.125,0.2,0,7.159
+Q03-bm25-osm-node-13913454078,qrels,Q03,cà phê,bm25,500,an_uong,osm-node-13913454078,Cà phê Nha,,RANK,,0,6,40,1,1,add_token,Thêm từ “Nha” (có trong tên),1,5,0.1667,0.0,0,7.13
+Q03-bm25-osm-node-5617113061,qrels,Q03,cà phê,bm25,500,an_uong,osm-node-5617113061,The Coffee Bean & Tea Leaf,,RANK,,0,7,42,1,1,add_token,Thêm từ “Bean” (có trong tên),1,5,0.1667,0.0,0,7.587
+Q03-bm25-osm-node-6315686502,qrels,Q03,cà phê,bm25,500,an_uong,osm-node-6315686502,Cafe Sài Gòn Xưa,,RANK,,0,8,45,1,1,add_token,Thêm từ “Xưa” (có trong tên),2,5,0.1667,0.2,0,10.865
+Q03-bm25-osm-way-1463054089,qrels,Q03,cà phê,bm25,500,an_uong,osm-way-1463054089,Long,,RANK,,0,10,39,1,1,add_token,Thêm từ “Long” (có trong tên),1,5,0.1667,0.0,0,7.835
+Q03-distance-osm-node-13913454078,qrels,Q03,cà phê,distance,500,an_uong,osm-node-13913454078,Cà phê Nha,,RANK,,0,11,40,1,1,add_token,Thêm từ “Nha” (có trong tên),1,5,0.1667,0.0,0,7.415
+Q03-distance-osm-node-2078561313,qrels,Q03,cà phê,distance,500,an_uong,osm-node-2078561313,Cafe Thềm Xưa,,RANK,,0,12,49,1,1,add_token,Thêm từ “Thềm” (có trong tên),1,5,0.1667,0.0,0,7.697
+Q03-distance-osm-node-5617113061,qrels,Q03,cà phê,distance,500,an_uong,osm-node-5617113061,The Coffee Bean & Tea Leaf,,RANK,,0,7,42,1,1,add_token,Thêm từ “Bean” (có trong tên),1,5,0.1667,0.0,0,7.688
+Q03-distance-osm-node-6315686502,qrels,Q03,cà phê,distance,500,an_uong,osm-node-6315686502,Cafe Sài Gòn Xưa,,RANK,,0,9,45,1,1,add_token,Thêm từ “Xưa” (có trong tên),1,5,0.1667,0.0,0,7.789
+Q03-distance-osm-node-6315687795,qrels,Q03,cà phê,distance,500,an_uong,osm-node-6315687795,Cafe ViEn,,RANK,,0,8,38,1,1,add_token,Thêm từ “ViEn” (có trong tên),1,5,0.1667,0.0,0,7.077
+Q03-distance-osm-way-1463054089,qrels,Q03,cà phê,distance,500,an_uong,osm-way-1463054089,Long,,RANK,,0,13,39,1,1,add_token,Thêm từ “Long” (có trong tên),1,5,0.1667,0.0,0,7.018
+Q03-distance-osm-way-1463633179,qrels,Q03,cà phê,distance,500,an_uong,osm-way-1463633179,Coffee 161,,RANK,,0,10,32,1,1,sort,Xếp theo “Đúng từ khóa”,5,5,0.25,0.4,0,6.935
+Q03-combined-osm-node-13913454078,qrels,Q03,cà phê,combined,500,an_uong,osm-node-13913454078,Cà phê Nha,,RANK,,0,10,55,1,1,add_token,Thêm từ “Nha” (có trong tên),1,5,0.1667,0.0,0,7.475
+Q03-combined-osm-node-2078561313,qrels,Q03,cà phê,combined,500,an_uong,osm-node-2078561313,Cafe Thềm Xưa,,RANK,,0,8,80,1,1,alpha,Ưu tiên từ khóa hơn (trọng số từ khóa 0.6 → 0.77),5,5,0.1417,0.8,0,8.316
+Q03-combined-osm-node-6315686502,qrels,Q03,cà phê,combined,500,an_uong,osm-node-6315686502,Cafe Sài Gòn Xưa,,RANK,,0,9,58,1,1,add_token,Thêm từ “Xưa” (có trong tên),1,5,0.1667,0.0,0,8.148
+Q03-combined-osm-way-1463054089,qrels,Q03,cà phê,combined,500,an_uong,osm-way-1463054089,Long,,RANK,,0,13,49,1,1,add_token,Thêm từ “Long” (có trong tên),1,5,0.1667,0.0,0,7.225
+Q03-combined-osm-way-1463633179,qrels,Q03,cà phê,combined,500,an_uong,osm-way-1463633179,Coffee 161,,RANK,,0,7,41,1,1,sort,Xếp theo “Đúng từ khóa”,5,5,0.25,0.6,0,7.239
+Q08-bm25-osm-node-729604748,qrels,Q08,cây xăng,bm25,1000,tram_xang,osm-node-729604748,Cửa Hàng Xăng Dầu Petrolimex,,RANK,,0,6,33,1,1,add_token,Thêm từ “Dầu” (có trong tên),2,5,0.1667,0.6,0,6.436
+Q08-bm25-osm-way-720357123,qrels,Q08,cây xăng,bm25,1000,tram_xang,osm-way-720357123,Cửa Hàng Xăng Dầu Petrolimex,,RANK,,0,7,34,1,1,add_token,Thêm từ “Dầu” (có trong tên),3,5,0.1667,0.6,0,6.261
+Q08-distance-osm-way-1525476304,qrels,Q08,cây xăng,distance,1000,tram_xang,osm-way-1525476304,Petrolimex,,RANK,,0,7,31,1,1,sort,Xếp theo “Đúng từ khóa”,4,5,0.25,0.6,0,5.545
+Q08-distance-osm-way-715880634,qrels,Q08,cây xăng,distance,1000,tram_xang,osm-way-715880634,Petrolimex,,RANK,,0,6,31,1,1,sort,Xếp theo “Đúng từ khóa”,3,5,0.25,0.6,0,5.216
+Q08-combined-osm-way-1525476304,qrels,Q08,cây xăng,combined,1000,tram_xang,osm-way-1525476304,Petrolimex,,RANK,,0,7,43,1,1,alpha,Ưu tiên từ khóa hơn (trọng số từ khóa 0.6 → 0.89613),5,5,0.2468,0.6,0,5.429
+Q08-combined-osm-way-715880634,qrels,Q08,cây xăng,combined,1000,tram_xang,osm-way-715880634,Petrolimex,,RANK,,0,6,39,1,1,alpha,Ưu tiên từ khóa hơn (trọng số từ khóa 0.6 → 0.731),5,5,0.1092,0.8,0,5.384
+Q09-bm25-osm-node-11755160657,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11755160657,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,19,44,1,1,add_token,Thêm từ “Chuyên” (có trong tên),1,5,0.1667,0.0,0,9.474
+Q09-bm25-osm-node-11755184292,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11755184292,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,20,42,1,1,add_token,Thêm từ “Chuyên” (có trong tên),2,5,0.1667,0.0,0,9.299
+Q09-bm25-osm-node-11755184293,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11755184293,Đại học Khoa học Tự nhiên,,RANK,,0,16,42,1,1,add_token,Thêm từ “Khoa” (có trong tên),2,5,0.1667,0.0,0,9.593
+Q09-bm25-osm-node-11782827569,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11782827569,Nhà khách Bộ Công an,,RANK,,0,13,47,1,1,add_token,Thêm từ “Bộ” (có trong tên),2,5,0.1667,0.2,0,9.334
+Q09-bm25-osm-node-11782827587,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11782827587,Trường Đại học Sài Gòn,,RANK,,0,10,43,1,1,add_token,Thêm từ “Gòn” (có trong tên),3,5,0.1667,0.0,0,9.323
+Q09-bm25-osm-node-11782827615,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,,RANK,,0,17,43,1,1,add_token,Thêm từ “Đình” (có trong tên),1,5,0.1667,0.0,0,9.95
+Q09-bm25-osm-node-11811394800,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-11811394800,Trường Tiểu học Bầu Sen,,RANK,,0,14,48,1,1,add_token,Thêm từ “Bầu” (có trong tên),3,5,0.1667,0.4,0,9.341
+Q09-bm25-osm-node-12212047754,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-12212047754,Báo An ninh Thế giới,,RANK,,0,11,43,1,1,add_token,Thêm từ “Báo” (có trong tên),1,5,0.1667,0.0,0,9.02
+Q09-bm25-osm-node-1765166512,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-1765166512,Đại học Sư phạm,,RANK,,0,6,42,1,1,add_token,Thêm từ “Sư” (có trong tên),1,5,0.1667,0.0,0,9.232
+Q09-bm25-osm-node-1765166514,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-1765166514,Đại học Sài Gòn,,RANK,,0,7,42,1,1,add_token,Thêm từ “Gòn” (có trong tên),1,5,0.1667,0.0,0,9.39
+Q09-bm25-osm-node-3150775230,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-3150775230,Đại học Khoa học Tự nhiên,,RANK,,0,15,43,1,1,add_token,Thêm từ “Khoa” (có trong tên),1,5,0.1667,0.0,0,9.479
+Q09-bm25-osm-node-3186257043,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-3186257043,Đại học Sài Gòn,,RANK,,0,8,45,1,1,add_token,Thêm từ “Gòn” (có trong tên),2,5,0.1667,0.0,0,9.16
+Q09-bm25-osm-node-3186264463,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-3186264463,Trường Trung học cơ sở Ba Đình,,RANK,,0,18,42,1,1,add_token,Thêm từ “Đình” (có trong tên),2,5,0.1667,0.0,0,9.245
+Q09-bm25-osm-node-8995419808,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-8995419808,Công viên Âu Lạc,,RANK,,0,9,50,1,1,add_token,Thêm từ “Âu” (có trong tên),1,5,0.1667,0.0,0,9.127
+Q09-bm25-osm-node-8995419810,qrels,Q09,xe buýt,bm25,500,tram_xe_buyt,osm-node-8995419810,Ngã tư Trần Bình Trọng,,RANK,,0,12,47,1,1,add_token,Thêm từ “Trần” (có trong tên),1,5,0.1667,0.0,0,9.146
+Q09-distance-osm-node-11755160657,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11755160657,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,10,44,1,1,add_token,Thêm từ “Chuyên” (có trong tên),1,5,0.1667,0.0,0,9.214
+Q09-distance-osm-node-11755184292,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11755184292,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,13,42,1,1,add_token,Thêm từ “Chuyên” (có trong tên),2,5,0.1667,0.0,0,9.194
+Q09-distance-osm-node-11755184293,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11755184293,Đại học Khoa học Tự nhiên,,RANK,,0,6,42,1,1,add_token,Thêm từ “Khoa” (có trong tên),2,5,0.1667,0.2,0,9.266
+Q09-distance-osm-node-11755184295,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11755184295,Chợ Bầu Sen,,RANK,,0,14,53,1,1,add_token,Thêm từ “Bầu” (có trong tên),1,5,0.1667,0.0,0,9.42
+Q09-distance-osm-node-11782827569,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11782827569,Nhà khách Bộ Công an,,RANK,,0,18,47,1,1,add_token,Thêm từ “Bộ” (có trong tên),2,5,0.1667,0.2,0,9.219
+Q09-distance-osm-node-11782827587,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11782827587,Trường Đại học Sài Gòn,,RANK,,0,7,43,1,1,add_token,Thêm từ “Gòn” (có trong tên),2,5,0.1667,0.2,0,9.5
+Q09-distance-osm-node-11782827615,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,,RANK,,0,8,43,1,1,add_token,Thêm từ “Đình” (có trong tên),1,5,0.1667,0.0,0,9.315
+Q09-distance-osm-node-11811394800,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-11811394800,Trường Tiểu học Bầu Sen,,RANK,,0,20,48,1,1,add_token,Thêm từ “Tiểu” (có trong tên),1,5,0.1667,0.0,0,9.266
+Q09-distance-osm-node-12212047754,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-12212047754,Báo An ninh Thế giới,,RANK,,0,11,43,1,1,add_token,Thêm từ “Báo” (có trong tên),1,5,0.1667,0.0,0,8.952
+Q09-distance-osm-node-3116315714,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-3116315714,Chợ Bầu Sen,,RANK,,0,19,56,1,1,add_token,Thêm từ “Bầu” (có trong tên),2,5,0.1667,0.0,0,9.575
+Q09-distance-osm-node-3171506754,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-3171506754,Phan Văn Trị,,RANK,,0,16,53,1,1,add_token,Thêm từ “Phan” (có trong tên),1,5,0.1667,0.0,0,9.377
+Q09-distance-osm-node-3186257043,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-3186257043,Đại học Sài Gòn,,RANK,,0,9,45,1,1,add_token,Thêm từ “Gòn” (có trong tên),3,5,0.1667,0.2,0,9.216
+Q09-distance-osm-node-3186264463,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-3186264463,Trường Trung học cơ sở Ba Đình,,RANK,,0,12,42,1,1,add_token,Thêm từ “Đình” (có trong tên),2,5,0.1667,0.0,0,9.15
+Q09-distance-osm-node-8995419808,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-8995419808,Công viên Âu Lạc,,RANK,,0,15,50,1,1,add_token,Thêm từ “Âu” (có trong tên),1,5,0.1667,0.0,0,9.073
+Q09-distance-osm-node-8995419810,qrels,Q09,xe buýt,distance,500,tram_xe_buyt,osm-node-8995419810,Ngã tư Trần Bình Trọng,,RANK,,0,17,47,1,1,add_token,Thêm từ “Trần” (có trong tên),1,5,0.1667,0.0,0,9.145
+Q09-combined-osm-node-11755160657,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11755160657,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,12,64,1,1,add_token,Thêm từ “Chuyên” (có trong tên),1,5,0.1667,0.0,0,9.782
+Q09-combined-osm-node-11755184292,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11755184292,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,,RANK,,0,13,53,1,1,add_token,Thêm từ “Chuyên” (có trong tên),2,5,0.1667,0.0,0,9.515
+Q09-combined-osm-node-11755184293,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11755184293,Đại học Khoa học Tự nhiên,,RANK,,0,6,43,1,1,add_token,Thêm từ “Khoa” (có trong tên),2,5,0.1667,0.2,0,9.253
+Q09-combined-osm-node-11755184295,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11755184295,Chợ Bầu Sen,,RANK,,0,14,99,1,1,add_token,Thêm từ “Bầu” (có trong tên),1,5,0.1667,0.0,0,10.131
+Q09-combined-osm-node-11782827569,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11782827569,Nhà khách Bộ Công an,,RANK,,0,18,69,1,1,add_token,Thêm từ “Bộ” (có trong tên),2,5,0.1667,0.2,0,9.528
+Q09-combined-osm-node-11782827587,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11782827587,Trường Đại học Sài Gòn,,RANK,,0,7,47,1,1,add_token,Thêm từ “Gòn” (có trong tên),2,5,0.1667,0.2,0,9.468
+Q09-combined-osm-node-11782827615,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,,RANK,,0,9,51,1,1,add_token,Thêm từ “Đình” (có trong tên),1,5,0.1667,0.0,0,9.551
+Q09-combined-osm-node-11811394800,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-11811394800,Trường Tiểu học Bầu Sen,,RANK,,0,20,72,1,1,add_token,Thêm từ “Tiểu” (có trong tên),1,5,0.1667,0.0,0,9.685
+Q09-combined-osm-node-12212047754,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-12212047754,Báo An ninh Thế giới,,RANK,,0,10,48,1,1,add_token,Thêm từ “Báo” (có trong tên),1,5,0.1667,0.0,0,12.109
+Q09-combined-osm-node-3116315714,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-3116315714,Chợ Bầu Sen,,RANK,,0,19,117,1,1,add_token,Thêm từ “Bầu” (có trong tên),2,5,0.1667,0.0,0,10.995
+Q09-combined-osm-node-3171506754,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-3171506754,Phan Văn Trị,,RANK,,0,15,100,1,1,add_token,Thêm từ “Phan” (có trong tên),1,5,0.1667,0.0,0,10.792
+Q09-combined-osm-node-3186257043,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-3186257043,Đại học Sài Gòn,,RANK,,0,8,62,1,1,add_token,Thêm từ “Gòn” (có trong tên),3,5,0.1667,0.2,0,10.155
+Q09-combined-osm-node-3186264463,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-3186264463,Trường Trung học cơ sở Ba Đình,,RANK,,0,11,48,1,1,add_token,Thêm từ “Đình” (có trong tên),2,5,0.1667,0.0,0,10.054
+Q09-combined-osm-node-8995419808,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-8995419808,Công viên Âu Lạc,,RANK,,0,16,83,1,1,add_token,Thêm từ “Âu” (có trong tên),1,5,0.1667,0.0,0,9.701
+Q09-combined-osm-node-8995419810,qrels,Q09,xe buýt,combined,500,tram_xe_buyt,osm-node-8995419810,Ngã tư Trần Bình Trọng,,RANK,,0,17,69,1,1,add_token,Thêm từ “Trần” (có trong tên),1,5,0.1667,0.0,0,9.918
+W01,authored,W01,chỗ in tài liệu,combined,1000,vpp_photocopy,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,TEXT,TEXT,1,0,,11,1,1,drop_tokens,"Bỏ từ “chỗ”, “tài”, “liệu”",3,5,0.375,,0,7.117
+W02,authored,W02,đổ xăng,distance,1000,tram_xang,osm-way-718979564,Petrolimex,TEXT,TEXT,1,0,,9,1,1,drop_tokens,Bỏ từ “đổ”,1,5,0.25,,0,4.341
+W03,authored,W03,cà phê sữa đá,combined,500,an_uong,osm-node-2614395027,Cà Phê Rita Võ,TEXT,TEXT,1,0,,27,1,1,drop_tokens,"Bỏ từ “sữa”, “đá”",2,5,0.25,,0,12.216
+W04,authored,W04,circle k,distance,300,an_uong,osm-node-6727039411,Circle K,CATEGORY,CATEGORY,1,0,,9,1,1,category,Bỏ lọc “Ăn uống”,1,5,0.25,,0,5.196
+W05,authored,W05,gs25,distance,300,an_uong,osm-node-6791076695,GS25,CATEGORY,CATEGORY,1,0,,7,1,1,category,Bỏ lọc “Ăn uống”,1,5,0.25,,0,3.768
+W06,authored,W06,pizza,distance,300,an_uong,osm-node-4089385463,Pizza Hut,RADIUS,RADIUS,1,0,,18,1,1,radius,Nới bán kính lên 500 m,1,5,0.1667,,0,5.041
+W07,authored,W07,cây xăng,distance,500,tram_xang,osm-way-722046446,Cửa Hàng Xăng Dầu Petrolimex,RADIUS,RADIUS,1,0,,18,1,1,radius,Nới bán kính lên 1 km,2,5,0.1667,1.0,0,7.387
+W08,authored,W08,photocopy,distance,500,vpp_photocopy,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,RADIUS,RADIUS,1,0,,14,1,1,radius,Nới bán kính lên 1 km,2,5,0.1667,,0,4.627
+W09,authored,W09,cà phê,distance,500,an_uong,osm-node-2078561313,Cafe Thềm Xưa,RANK,RANK,1,0,12,49,1,1,add_token,Thêm từ “Thềm” (có trong tên),1,5,0.1667,0.0,0,8.257
+W10,authored,W10,cà phê,bm25,500,an_uong,osm-node-13913454078,Cà phê Nha,RANK,RANK,1,0,6,40,1,1,add_token,Thêm từ “Nha” (có trong tên),1,5,0.1667,0.0,0,7.445
+W11,authored,W11,cà phê,combined,500,an_uong,osm-way-1463633179,Coffee 161,RANK,RANK,1,0,7,41,1,1,sort,Xếp theo “Đúng từ khóa”,5,5,0.25,0.6,0,7.307
+W12,authored,W12,xe buýt,distance,500,tram_xe_buyt,osm-node-11755184295,Chợ Bầu Sen,RANK,RANK,1,0,14,53,1,1,add_token,Thêm từ “Bầu” (có trong tên),1,5,0.1667,0.0,0,10.121
+W13,authored,W13,ăn sáng,combined,500,an_uong,osm-way-1417141539,Canteen SGU,TEXT,TEXT,1,0,,14,1,1,drop_tokens+k,Bỏ từ “sáng” + Xem 8 kết quả đầu thay vì 5,8,8,0.267,,0,7.787
+W14,authored,W14,siêu thị,distance,500,tien_loi,osm-node-6791076695,GS25,TEXT,TEXT,1,0,,5,1,1,drop_tokens,"Bỏ từ “siêu”, “thị”",1,5,0.5,,0,4.467
+W15,authored,W15,đổ xăng,distance,300,tram_xang,osm-way-722046446,Cửa Hàng Xăng Dầu Petrolimex,TEXT+RADIUS,TEXT+RADIUS,1,0,,4,1,1,drop_tokens+radius,Bỏ từ “đổ” + Nới bán kính lên 1 km,2,5,0.5,,0,4.996

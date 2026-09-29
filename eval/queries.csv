@@ -1,0 +1,13 @@
+query_id,query,origin_lat,origin_lon,radius_m,category,information_need,notes
+Q01,photocopy,10.761357,106.6821769,1000,vpp_photocopy,Cần chỗ photocopy tài liệu trong bán kính 1 km quanh trường,danh mục
+Q02,van phong pham,10.761357,106.6821769,2000,vpp_photocopy,"Mua bút, giấy, dụng cụ văn phòng phẩm; gõ không dấu",không dấu
+Q03,cà phê,10.761357,106.6821769,500,an_uong,Tìm quán cà phê để ngồi học gần trường,món/loại quán; có dấu
+Q04,circle k,10.761357,106.6821769,300,,"Tìm cửa hàng Circle K gần trường, không chọn danh mục",tên riêng chuỗi cửa hàng
+Q05,Demon Kitchen,10.761357,106.6821769,300,,Tìm đúng quán Demon Kitchen Tai Pai Dong,tên riêng một quán
+Q06,com,10.761357,106.6821769,1000,an_uong,Tìm quán cơm cho bữa trưa; gõ không dấu,không dấu; từ ngắn
+Q07,trà sữa,10.761357,106.6821769,1000,an_uong,Tìm quán trà sữa,món
+Q08,cây xăng,10.761357,106.6821769,1000,tram_xang,Tìm chỗ đổ xăng gần trường,danh mục mới
+Q09,xe buýt,10.761357,106.6821769,500,tram_xe_buyt,Tìm trạm xe buýt gần trường để về nhà,danh mục mới
+Q10,phòng trọ,10.761357,106.6821769,1000,nha_tro,Tìm phòng trọ cho sinh viên gần trường,nguồn tin đăng
+Q11,sửa xe máy,10.761357,106.6821769,300,,Tìm tiệm sửa xe máy; corpus không có danh mục này,không có đáp án
+Q12,pizza,10.761357,106.6821769,2000,an_uong,Tìm quán pizza trong 2 km,món; tên chuỗi

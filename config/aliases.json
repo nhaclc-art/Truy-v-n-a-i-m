@@ -1,0 +1,10 @@
+{
+  "note": "Alias theo từ, áp dụng như nhau khi dựng chỉ mục và khi xử lý truy vấn. Không chứa ID POI, điểm hay kết quả cho câu demo. Thêm alias mới phải kèm test.",
+  "aliases": {
+    "vpp": "văn phòng phẩm",
+    "photo": "photocopy",
+    "cafe": "cà phê",
+    "coffee": "cà phê",
+    "bus": "xe buýt"
+  }
+}

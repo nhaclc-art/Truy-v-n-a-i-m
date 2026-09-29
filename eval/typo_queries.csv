@@ -1,0 +1,22 @@
+variant_id,base_query_id,query,variant_type,note
+T01,Q01,photocoppy,sai_chu,thừa một chữ
+T02,Q01,photocopi,sai_chu,sai một chữ cuối
+T03,Q02,van phong phamm,sai_chu,thừa một chữ
+T04,Q02,vanphongpham,go_dinh,gõ dính ba từ
+T05,Q03,ca phee,sai_chu,thừa một chữ
+T06,Q03,caf phee,telex,"sót chữ Telex; ""caf"" dưới 4 ký tự nên không được sửa (dự kiến thất bại)"
+T07,Q04,circlek,go_dinh,gõ dính
+T08,Q04,circel k,sai_chu,đảo hai chữ
+T09,Q05,demon kitchn,sai_chu,thiếu một chữ
+T10,Q05,deamon kitchen,sai_chu,thừa một chữ
+T11,Q06,comm,sai_chu,thừa một chữ
+T12,Q07,tra suwa,telex,sót chữ w của Telex
+T13,Q07,trà sũa,sai_dau,sai dấu
+T14,Q08,caay xawng,telex,sót chữ Telex ở cả hai từ
+T15,Q08,cay xnag,sai_chu,đảo hai chữ
+T16,Q09,xe buyts,telex,sót chữ s (dấu sắc) của Telex
+T17,Q09,xebuyt,go_dinh,gõ dính
+T18,Q10,phongf trooj,telex,sót chữ Telex ở cả hai từ
+T19,Q10,phong troo,sai_chu,thừa một chữ
+T20,Q12,piza,sai_chu,thiếu một chữ
+T21,Q12,pizzza,sai_chu,thừa một chữ

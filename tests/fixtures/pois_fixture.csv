@@ -1,0 +1,7 @@
+id,name,category,address,lat,lon,description,tags,source_url,source_type,source_id,retrieved_at,verification_status,verified_at,verification_note,listing_url,listing_checked_at,opening_hours
+fx-vpp-hongha,VPP Hồng Hà,vpp_photocopy,,10.763157,106.6821769,,văn phòng phẩm,https://example.org/fixture/fx-vpp-hongha,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,,,
+fx-photo-ngoclan,Tiệm Photocopy Ngọc Lan,vpp_photocopy,,10.757757,106.6821769,"In ấn, photo tài liệu",photocopy in ấn,https://example.org/fixture/fx-photo-ngoclan,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,,,
+fx-com-tam,Cơm Tấm Đêm,an_uong,,10.761357,106.6848769,,cơm; món Việt,https://example.org/fixture/fx-com-tam,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,,,
+fx-pho-dakao,Phở Bò Đa Kao,an_uong,,10.769357,106.6821769,,món Việt,https://example.org/fixture/fx-pho-dakao,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,,,
+fx-circle-k,Circle K,tien_loi,,10.760357,106.6821769,,cửa hàng tiện lợi,https://example.org/fixture/fx-circle-k,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,,,
+fx-nha-tro,Nhà trọ hẻm tổng hợp,nha_tro,,10.776357,106.6821769,,phòng trọ cho thuê,https://example.org/fixture/fx-nha-tro,fixture,,2026-09-18,source_only,,Dữ liệu tổng hợp cho test,https://example.org/fixture/listing,2026-09-18,

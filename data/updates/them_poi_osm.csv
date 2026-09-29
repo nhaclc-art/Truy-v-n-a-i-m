@@ -1,0 +1,2 @@
+id,name,category,address,lat,lon,description,tags,source_url,source_type,source_id,retrieved_at,verification_status,verified_at,verification_note,listing_url,listing_checked_at,opening_hours
+osm-node-2674750764,Phở Bắc Hải,an_uong,,10.7731020,106.6688350,,nhà hàng quán ăn,https://www.openstreetmap.org/node/2674750764,osm,node/2674750764,2026-09-18,source_only,,POI thật từ snapshot OSM 18/09/2026 nằm ngoài luật chọn corpus; dùng để trình diễn thêm dữ liệu không sửa mã.,,,

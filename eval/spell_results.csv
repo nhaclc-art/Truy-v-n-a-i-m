@@ -1,0 +1,43 @@
+variant_id,base_query_id,base_query,query,variant_type,spell,query_used,corrections,returned_count,same_top5_as_base,precision_at_5,ndcg_at_5
+T01,Q01,photocopy,photocoppy,sai_chu,0,photocoppy,,0,0,0.0,0.0
+T01,Q01,photocopy,photocoppy,sai_chu,1,photocopy,photocoppy → photocopy,4,1,0.6,1.0
+T02,Q01,photocopy,photocopi,sai_chu,0,photocopi,,0,0,0.0,0.0
+T02,Q01,photocopy,photocopi,sai_chu,1,photocopy,photocopi → photocopy,4,1,0.6,1.0
+T03,Q02,van phong pham,van phong phamm,sai_chu,0,van phong phamm,,0,0,0.0,0.0
+T03,Q02,van phong pham,van phong phamm,sai_chu,1,van phong pham,phamm → pham,7,1,0.6,1.0
+T04,Q02,van phong pham,vanphongpham,go_dinh,0,vanphongpham,,0,0,0.0,0.0
+T04,Q02,van phong pham,vanphongpham,go_dinh,1,van phong pham,vanphongpham → van phong pham,7,1,0.6,1.0
+T05,Q03,cà phê,ca phee,sai_chu,0,ca phee,,0,0,0.0,0.0
+T05,Q03,cà phê,ca phee,sai_chu,1,ca phe,phee → phe,13,1,1.0,1.0
+T06,Q03,cà phê,caf phee,telex,0,caf phee,,0,0,0.0,0.0
+T06,Q03,cà phê,caf phee,telex,1,caf phe,phee → phe,0,0,0.0,0.0
+T07,Q04,circle k,circlek,go_dinh,0,circlek,,0,0,0.0,0.0
+T07,Q04,circle k,circlek,go_dinh,1,circle k,circlek → circle k,2,1,0.4,1.0
+T08,Q04,circle k,circel k,sai_chu,0,circel k,,0,0,0.0,0.0
+T08,Q04,circle k,circel k,sai_chu,1,circle k,circel → circle,2,1,0.4,1.0
+T09,Q05,Demon Kitchen,demon kitchn,sai_chu,0,demon kitchn,,0,0,0.0,0.0
+T09,Q05,Demon Kitchen,demon kitchn,sai_chu,1,demon kitchen,kitchn → kitchen,1,1,0.2,1.0
+T10,Q05,Demon Kitchen,deamon kitchen,sai_chu,0,deamon kitchen,,0,0,0.0,0.0
+T10,Q05,Demon Kitchen,deamon kitchen,sai_chu,1,demon kitchen,deamon → demon,1,1,0.2,1.0
+T11,Q06,com,comm,sai_chu,0,comm,,0,0,0.0,0.0
+T11,Q06,com,comm,sai_chu,1,com,comm → com,3,1,0.6,1.0
+T12,Q07,trà sữa,tra suwa,telex,0,tra suwa,,0,0,0.0,0.0
+T12,Q07,trà sữa,tra suwa,telex,1,tra sua,suwa → sua,3,1,0.4,1.0
+T13,Q07,trà sữa,trà sũa,sai_dau,0,tra sua,,3,1,0.4,1.0
+T13,Q07,trà sữa,trà sũa,sai_dau,1,tra sua,,3,1,0.4,1.0
+T14,Q08,cây xăng,caay xawng,telex,0,caay xawng,,0,0,0.0,0.0
+T14,Q08,cây xăng,caay xawng,telex,1,cay xang,caay → cay; xawng → xang,7,1,1.0,1.0
+T15,Q08,cây xăng,cay xnag,sai_chu,0,cay xnag,,0,0,0.0,0.0
+T15,Q08,cây xăng,cay xnag,sai_chu,1,cay xang,xnag → xang,7,1,1.0,1.0
+T16,Q09,xe buýt,xe buyts,telex,0,xe buyts,,0,0,0.0,0.0
+T16,Q09,xe buýt,xe buyts,telex,1,xe buyt,buyts → buyt,20,1,1.0,1.0
+T17,Q09,xe buýt,xebuyt,go_dinh,0,xebuyt,,0,0,0.0,0.0
+T17,Q09,xe buýt,xebuyt,go_dinh,1,xe buyt,xebuyt → xe buyt,20,1,1.0,1.0
+T18,Q10,phòng trọ,phongf trooj,telex,0,phongf trooj,,0,0,0.0,0.0
+T18,Q10,phòng trọ,phongf trooj,telex,1,phong tro,phongf → phong; trooj → tro,2,1,0.4,1.0
+T19,Q10,phòng trọ,phong troo,sai_chu,0,phong troo,,0,0,0.0,0.0
+T19,Q10,phòng trọ,phong troo,sai_chu,1,phong tro,troo → tro,2,1,0.4,1.0
+T20,Q12,pizza,piza,sai_chu,0,piza,,0,0,0.0,0.0
+T20,Q12,pizza,piza,sai_chu,1,pizza,piza → pizza,4,1,0.8,1.0
+T21,Q12,pizza,pizzza,sai_chu,0,pizzza,,0,0,0.0,0.0
+T21,Q12,pizza,pizzza,sai_chu,1,pizza,pizzza → pizza,4,1,0.8,1.0

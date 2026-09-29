@@ -1,0 +1,233 @@
+query_id,poi_id,poi_name,category,address,source_url,relevance,reason,labeled_by,reviewed_by,reviewed_at
+Q01,osm-node-13535736734,Nhà Sách Ecobook,vpp_photocopy,469 Lê Hồng Phong,https://www.openstreetmap.org/node/13535736734,0,Nhà sách/văn phòng phẩm; không có bằng chứng dịch vụ photocopy,claude-draft,Tran Dat,2026-09-18
+Q01,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,vpp_photocopy,,https://www.openstreetmap.org/node/6741927785,1,Tiệm photocopy theo OSM,claude-draft,Tran Dat,2026-09-18
+Q01,osm-node-6968287585,Tiệm Photocopy BKV,vpp_photocopy,,https://www.openstreetmap.org/node/6968287585,1,Tiệm photocopy theo OSM,claude-draft,Tran Dat,2026-09-18
+Q01,osm-way-1532551041,Huỳnh Trí,vpp_photocopy,359 Đường Phan Văn Trị,https://www.openstreetmap.org/way/1532551041,1,Tiệm photocopy theo OSM (shop=copyshop),claude-draft,Tran Dat,2026-09-18
+Q02,osm-node-13535736734,Nhà Sách Ecobook,vpp_photocopy,469 Lê Hồng Phong,https://www.openstreetmap.org/node/13535736734,1,Cửa hàng văn phòng phẩm theo OSM (shop=stationery),claude-draft,Tran Dat,2026-09-18
+Q02,osm-node-4750136821,Cửa Hàng Văn Phòng Phẩm Hồng Ngọc,vpp_photocopy,E 20-22 Khánh Hội,https://www.openstreetmap.org/node/4750136821,1,Tên và OSM ghi cửa hàng văn phòng phẩm,claude-draft,Tran Dat,2026-09-18
+Q02,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,vpp_photocopy,,https://www.openstreetmap.org/node/6741927785,0,Chỉ có bằng chứng dịch vụ photocopy; không rõ bán văn phòng phẩm,claude-draft,Tran Dat,2026-09-18
+Q02,osm-node-6968287585,Tiệm Photocopy BKV,vpp_photocopy,,https://www.openstreetmap.org/node/6968287585,0,Chỉ có bằng chứng dịch vụ photocopy; không rõ bán văn phòng phẩm,claude-draft,Tran Dat,2026-09-18
+Q02,osm-way-1444550306,Minh Phước,vpp_photocopy,137A Đường Nguyễn Chí Thanh,https://www.openstreetmap.org/way/1444550306,0,Chỉ có bằng chứng dịch vụ photocopy; không rõ bán văn phòng phẩm,claude-draft,Tran Dat,2026-09-18
+Q02,osm-way-1529565514,Hồng Hà,vpp_photocopy,798 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/way/1529565514,1,Cửa hàng văn phòng phẩm theo OSM (shop=stationery),claude-draft,Tran Dat,2026-09-18
+Q02,osm-way-1532551041,Huỳnh Trí,vpp_photocopy,359 Đường Phan Văn Trị,https://www.openstreetmap.org/way/1532551041,0,Chỉ có bằng chứng dịch vụ photocopy; không rõ bán văn phòng phẩm,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-13913454078,Cà phê Nha,an_uong,385E3 Hẻm 385 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/13913454078,1,Quán cà phê theo OSM,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-2078561313,Cafe Thềm Xưa,an_uong,"371D1 Nguyễn Cảnh Chân, P. Nguyễn Cư Trinh, Quận 1",https://www.openstreetmap.org/node/2078561313,1,Quán cà phê (đã đối chiếu Foody),claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,1,Quán cà phê có chỗ ngồi (Foody),claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-3641697177,Cơm Tấm Nguyễn Văn Cừ,an_uong,74 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/3641697177,0,Quán cơm tấm; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-4089385463,Pizza Hut,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/4089385463,0,Nhà hàng pizza; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-4600025690,Nhà hàng Cố Đô,an_uong,,https://www.openstreetmap.org/node/4600025690,0,Nhà hàng; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-5617113061,The Coffee Bean & Tea Leaf,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5617113061,1,Quán cà phê chuỗi The Coffee Bean,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-5676727923,Trà Sữa Bocha,an_uong,187 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727923,0,Quán trà sữa; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-5676727924,Nhà Hàng Sushi MH,an_uong,193 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727924,0,Quán sushi; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Quán nước mía; không phải quán cà phê (OSM còn ghi tên cũ Coffee Urban Station),claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-5951707086,Banh Canh Cua 14,an_uong,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/5951707086,0,Quán bánh canh; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Nhà hàng; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,1,Quán cà phê Passio,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Quán bún; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Quán trà sữa; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Nhà hàng; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315686502,Cafe Sài Gòn Xưa,an_uong,,https://www.openstreetmap.org/node/6315686502,1,Quán cà phê theo OSM,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315687014,Nhà Hàng Phúc An Khang,an_uong,,https://www.openstreetmap.org/node/6315687014,0,Nhà hàng; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6315687795,Cafe ViEn,an_uong,,https://www.openstreetmap.org/node/6315687795,1,Quán cà phê theo OSM,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6645617788,Nhà hàng Ếch Xanh,an_uong,371D Đường Nguyễn Cảnh Chân,https://www.openstreetmap.org/node/6645617788,0,Nhà hàng món ếch; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-node-6646675191,Gỏi cuốn Ngon Ngon,an_uong,322/15 Đường An Dương Vương,https://www.openstreetmap.org/node/6646675191,0,Quán ăn vặt; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Nhà hàng món Hồng Kông; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Căn tin; không phải quán cà phê,claude-draft,Tran Dat,2026-09-18
+Q03,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Căng tin trường; OSM ghi có bán cà phê nhưng không phải quán cà phê để ngồi học (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q03,osm-way-1463054089,Long,an_uong,125 Đường Nguyễn Trãi,https://www.openstreetmap.org/way/1463054089,1,OSM ghi quán cà phê (amenity=cafe); chưa có nguồn khác,claude-draft,Tran Dat,2026-09-18
+Q03,osm-way-1463633179,Coffee 161,an_uong,161 Đường Trần Bình Trọng,https://www.openstreetmap.org/way/1463633179,1,Quán cà phê theo OSM,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-11755184293,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184293,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-11782827587,Trường Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827587,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827615,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-1765166512,Đại học Sư phạm,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166512,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-1765166514,Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166514,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-3150775230,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/3150775230,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-3171506752,Bộ Công an,tram_xe_buyt,,https://www.openstreetmap.org/node/3171506752,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6315685296,Nguyễn Trãi,tram_xe_buyt,,https://www.openstreetmap.org/node/6315685296,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6727039411,Circle K,tien_loi,Đường An Dương Vương,https://www.openstreetmap.org/node/6727039411,1,Cửa hàng Circle K trên An Dương Vương,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6775727584,Circle K,tien_loi,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/6775727584,1,Cửa hàng Circle K trên Trần Bình Trọng,claude-draft,Tran Dat,2026-09-18
+Q04,osm-node-6791076695,GS25,tien_loi,Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6791076695,0,Cửa hàng tiện lợi GS25; không phải Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q04,osm-way-718979564,Petrolimex,tram_xang,99 Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/way/718979564,0,Không phải cửa hàng Circle K,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-11755184293,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184293,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-11782827587,Trường Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827587,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827615,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-1765166512,Đại học Sư phạm,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166512,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-1765166514,Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166514,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-3150775230,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/3150775230,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-3171506752,Bộ Công an,tram_xe_buyt,,https://www.openstreetmap.org/node/3171506752,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Quán kế bên nhưng không phải Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6315685296,Nguyễn Trãi,tram_xe_buyt,,https://www.openstreetmap.org/node/6315685296,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6727039411,Circle K,tien_loi,Đường An Dương Vương,https://www.openstreetmap.org/node/6727039411,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6775727584,Circle K,tien_loi,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/6775727584,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-node-6791076695,GS25,tien_loi,Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6791076695,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,1,Đúng quán Demon Kitchen Tai Pai Dong,claude-draft,Tran Dat,2026-09-18
+Q05,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q05,osm-way-718979564,Petrolimex,tram_xang,99 Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/way/718979564,0,Không phải quán Demon Kitchen,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-13913454078,Cà phê Nha,an_uong,385E3 Hẻm 385 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/13913454078,0,Quán cà phê; không bán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-2040064098,Pizza Hut Nguyễn Trãi,an_uong,264 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/2040064098,0,Cửa hàng pizza; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-2078561313,Cafe Thềm Xưa,an_uong,"371D1 Nguyễn Cảnh Chân, P. Nguyễn Cư Trinh, Quận 1",https://www.openstreetmap.org/node/2078561313,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-3641662433,Bánh Cuốn Hải Nam,an_uong,11A Cao Thắng,https://www.openstreetmap.org/node/3641662433,0,Quán bánh cuốn; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-3641697177,Cơm Tấm Nguyễn Văn Cừ,an_uong,74 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/3641697177,1,Quán cơm tấm; mở buổi trưa (Foody 06:30-15:00),claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-4089385463,Pizza Hut,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/4089385463,0,Nhà hàng pizza; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-4134594889,Cà Phê Three O’clock,an_uong,771 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/node/4134594889,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-4369409590,Cơm Gà Tam Kỳ Hồng Nga,an_uong,158A Bùi Thị Xuân,https://www.openstreetmap.org/node/4369409590,1,Quán cơm gà,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-4600025690,Nhà hàng Cố Đô,an_uong,,https://www.openstreetmap.org/node/4600025690,0,Nhà hàng; chưa có bằng chứng bán cơm phần (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-4676482492,Nhà Hàng Út Cà Mau,an_uong,"512-514 Nguyễn Thị Minh Khai, P. 2, Quận 3",https://www.openstreetmap.org/node/4676482492,0,Nhà hàng hải sản/cua; không phải quán cơm trưa,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5107196723,Cơm Tấm 419,an_uong,"417 An Dương Vương, Phường Chợ Quán",https://www.openstreetmap.org/node/5107196723,1,Quán cơm tấm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5617113061,The Coffee Bean & Tea Leaf,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5617113061,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5676727923,Trà Sữa Bocha,an_uong,187 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727923,0,Quán trà sữa; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5676727924,Nhà Hàng Sushi MH,an_uong,193 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727924,0,Quán sushi; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Quán nước mía; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-5951707086,Banh Canh Cua 14,an_uong,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/5951707086,0,Quán bánh canh; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Nhà hàng; chưa có bằng chứng bán cơm phần (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Quán bún; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Quán trà sữa; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Nhà hàng; chưa có bằng chứng bán cơm phần (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315686502,Cafe Sài Gòn Xưa,an_uong,,https://www.openstreetmap.org/node/6315686502,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315687014,Nhà Hàng Phúc An Khang,an_uong,,https://www.openstreetmap.org/node/6315687014,0,Nhà hàng; chưa có bằng chứng bán cơm phần (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6315687795,Cafe ViEn,an_uong,,https://www.openstreetmap.org/node/6315687795,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6645617788,Nhà hàng Ếch Xanh,an_uong,371D Đường Nguyễn Cảnh Chân,https://www.openstreetmap.org/node/6645617788,0,Nhà hàng món ếch; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-node-6646675191,Gỏi cuốn Ngon Ngon,an_uong,322/15 Đường An Dương Vương,https://www.openstreetmap.org/node/6646675191,0,Quán gỏi cuốn; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Nhà hàng món Hồng Kông; chưa có bằng chứng bán cơm phần (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Căn tin; chưa có bằng chứng bán cơm trưa (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Căng tin; OSM ghi món Việt và mì bún nhưng chưa có bằng chứng bán cơm (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q06,osm-way-1463054089,Long,an_uong,125 Đường Nguyễn Trãi,https://www.openstreetmap.org/way/1463054089,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q06,osm-way-1463633179,Coffee 161,an_uong,161 Đường Trần Bình Trọng,https://www.openstreetmap.org/way/1463633179,0,Quán cà phê; không phải quán cơm,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-13913454078,Cà phê Nha,an_uong,385E3 Hẻm 385 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/13913454078,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-2040064098,Pizza Hut Nguyễn Trãi,an_uong,264 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/2040064098,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-2078561313,Cafe Thềm Xưa,an_uong,"371D1 Nguyễn Cảnh Chân, P. Nguyễn Cư Trinh, Quận 1",https://www.openstreetmap.org/node/2078561313,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-3641662433,Bánh Cuốn Hải Nam,an_uong,11A Cao Thắng,https://www.openstreetmap.org/node/3641662433,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-3641697177,Cơm Tấm Nguyễn Văn Cừ,an_uong,74 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/3641697177,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-4089385463,Pizza Hut,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/4089385463,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-4134594889,Cà Phê Three O’clock,an_uong,771 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/node/4134594889,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-4369409590,Cơm Gà Tam Kỳ Hồng Nga,an_uong,158A Bùi Thị Xuân,https://www.openstreetmap.org/node/4369409590,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-4600025690,Nhà hàng Cố Đô,an_uong,,https://www.openstreetmap.org/node/4600025690,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-4676482492,Nhà Hàng Út Cà Mau,an_uong,"512-514 Nguyễn Thị Minh Khai, P. 2, Quận 3",https://www.openstreetmap.org/node/4676482492,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5107196723,Cơm Tấm 419,an_uong,"417 An Dương Vương, Phường Chợ Quán",https://www.openstreetmap.org/node/5107196723,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5617113061,The Coffee Bean & Tea Leaf,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5617113061,0,Quán cà phê/trà; không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5676727923,Trà Sữa Bocha,an_uong,187 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727923,1,Quán trà sữa (Foody),claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5676727924,Nhà Hàng Sushi MH,an_uong,193 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727924,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Quán nước mía; không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-5951707086,Banh Canh Cua 14,an_uong,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/5951707086,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Quán cà phê; không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,1,Quán trà sữa (người dùng xác nhận trên Google Maps),claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315686502,Cafe Sài Gòn Xưa,an_uong,,https://www.openstreetmap.org/node/6315686502,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315687014,Nhà Hàng Phúc An Khang,an_uong,,https://www.openstreetmap.org/node/6315687014,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6315687795,Cafe ViEn,an_uong,,https://www.openstreetmap.org/node/6315687795,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6645617788,Nhà hàng Ếch Xanh,an_uong,371D Đường Nguyễn Cảnh Chân,https://www.openstreetmap.org/node/6645617788,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-node-6646675191,Gỏi cuốn Ngon Ngon,an_uong,322/15 Đường An Dương Vương,https://www.openstreetmap.org/node/6646675191,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Căng tin; OSM ghi có bán trà sữa nhưng không phải quán trà sữa (cần xác nhận),claude-draft,Tran Dat,2026-09-18
+Q07,osm-way-1463054089,Long,an_uong,125 Đường Nguyễn Trãi,https://www.openstreetmap.org/way/1463054089,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q07,osm-way-1463633179,Coffee 161,an_uong,161 Đường Trần Bình Trọng,https://www.openstreetmap.org/way/1463633179,0,Không phải quán trà sữa,claude-draft,Tran Dat,2026-09-18
+Q08,osm-node-729604748,Cửa Hàng Xăng Dầu Petrolimex,tram_xang,,https://www.openstreetmap.org/node/729604748,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-1525476304,Petrolimex,tram_xang,744 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/way/1525476304,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-715880634,Petrolimex,tram_xang,Đường Hùng Vương,https://www.openstreetmap.org/way/715880634,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-718979564,Petrolimex,tram_xang,99 Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/way/718979564,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-720354127,Petrolimex,tram_xang,749 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/way/720354127,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-720357123,Cửa Hàng Xăng Dầu Petrolimex,tram_xang,615A Đường Trần Hưng Ðạo,https://www.openstreetmap.org/way/720357123,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q08,osm-way-722046446,Cửa Hàng Xăng Dầu Petrolimex,tram_xang,444 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/way/722046446,1,Trạm xăng theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11755160657,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,tram_xe_buyt,,https://www.openstreetmap.org/node/11755160657,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11755184292,Trường Trung học Phổ thông Chuyên Lê Hồng Phong,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184292,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11755184293,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184293,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11755184295,Chợ Bầu Sen,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184295,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11782827569,Nhà khách Bộ Công an,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827569,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11782827587,Trường Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827587,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827615,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-11811394800,Trường Tiểu học Bầu Sen,tram_xe_buyt,,https://www.openstreetmap.org/node/11811394800,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-12212047754,Báo An ninh Thế giới,tram_xe_buyt,,https://www.openstreetmap.org/node/12212047754,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-1765166512,Đại học Sư phạm,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166512,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-1765166514,Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166514,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3116315714,Chợ Bầu Sen,tram_xe_buyt,370 Đường An Dương Vương,https://www.openstreetmap.org/node/3116315714,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3150775230,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/3150775230,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3171506752,Bộ Công an,tram_xe_buyt,,https://www.openstreetmap.org/node/3171506752,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3171506754,Phan Văn Trị,tram_xe_buyt,,https://www.openstreetmap.org/node/3171506754,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3186257043,Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/3186257043,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-3186264463,Trường Trung học cơ sở Ba Đình,tram_xe_buyt,,https://www.openstreetmap.org/node/3186264463,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-6315685296,Nguyễn Trãi,tram_xe_buyt,,https://www.openstreetmap.org/node/6315685296,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-8995419808,Công viên Âu Lạc,tram_xe_buyt,,https://www.openstreetmap.org/node/8995419808,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q09,osm-node-8995419810,Ngã tư Trần Bình Trọng,tram_xe_buyt,,https://www.openstreetmap.org/node/8995419810,1,Trạm xe buýt trong 500 m theo OSM,claude-draft,Tran Dat,2026-09-18
+Q10,src-phongtro123-702637,Phòng trọ hẻm 338/1 An Dương Vương,nha_tro,"338/1/16 An Dương Vương, Phường Chợ Quán",https://phongtro123.com/chinh-chu-cho-thue-phong-tro-tai-338-1-16-an-duong-vuong-phuong-cho-quan-pr702637.html,1,Tin đăng mục phòng trọ (tin đã hết hạn gói đăng; không suy ra còn phòng),claude-draft,Tran Dat,2026-09-18
+Q10,src-phongtro123-706311,Phòng trọ 378 An Dương Vương,nha_tro,"378 An Dương Vương, Phường Chợ Quán",https://phongtro123.com/phong-ban-cong-moi-xay-co-thang-may-gan-dh-su-pham-q-5-pr706311.html,1,Tin đăng mục phòng trọ còn hiển thị,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-11755184293,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/11755184293,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-11782827587,Trường Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827587,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-11782827615,Trường Trung học cơ sở Ba Đình,tram_xe_buyt,,https://www.openstreetmap.org/node/11782827615,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-1765166512,Đại học Sư phạm,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166512,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-1765166514,Đại học Sài Gòn,tram_xe_buyt,,https://www.openstreetmap.org/node/1765166514,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-3150775230,Đại học Khoa học Tự nhiên,tram_xe_buyt,,https://www.openstreetmap.org/node/3150775230,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-3171506752,Bộ Công an,tram_xe_buyt,,https://www.openstreetmap.org/node/3171506752,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6315685296,Nguyễn Trãi,tram_xe_buyt,,https://www.openstreetmap.org/node/6315685296,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6727039411,Circle K,tien_loi,Đường An Dương Vương,https://www.openstreetmap.org/node/6727039411,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6775727584,Circle K,tien_loi,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/6775727584,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-node-6791076695,GS25,tien_loi,Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6791076695,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Không phải tiệm sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q11,osm-way-718979564,Petrolimex,tram_xang,99 Đường Nguyễn Văn Cừ,https://www.openstreetmap.org/way/718979564,0,Trạm xăng; không có bằng chứng sửa xe máy,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-13913454078,Cà phê Nha,an_uong,385E3 Hẻm 385 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/13913454078,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-1969579862,Highlands Coffee,an_uong,187 Đường Phạm Ngũ Lão,https://www.openstreetmap.org/node/1969579862,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-2040064098,Pizza Hut Nguyễn Trãi,an_uong,264 Đường Nguyễn Trãi,https://www.openstreetmap.org/node/2040064098,1,Cửa hàng Pizza Hut,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-2078561313,Cafe Thềm Xưa,an_uong,"371D1 Nguyễn Cảnh Chân, P. Nguyễn Cư Trinh, Quận 1",https://www.openstreetmap.org/node/2078561313,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-2614395027,Cà Phê Rita Võ,an_uong,"211 Nguyễn Văn Cừ, P. 3, Quận 5",https://www.openstreetmap.org/node/2614395027,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-3641662433,Bánh Cuốn Hải Nam,an_uong,11A Cao Thắng,https://www.openstreetmap.org/node/3641662433,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-3641697177,Cơm Tấm Nguyễn Văn Cừ,an_uong,74 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/3641697177,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4089362511,Pizza Hut,an_uong,3 3 Tháng 2,https://www.openstreetmap.org/node/4089362511,1,Cửa hàng Pizza Hut,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4089385463,Pizza Hut,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/4089385463,1,Cửa hàng Pizza Hut,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4089404601,Pizza Hut,an_uong,397 Đường Nguyễn Tri Phương,https://www.openstreetmap.org/node/4089404601,1,Cửa hàng Pizza Hut,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4134594889,Cà Phê Three O’clock,an_uong,771 Đường Trần Hưng Ðạo,https://www.openstreetmap.org/node/4134594889,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4369409590,Cơm Gà Tam Kỳ Hồng Nga,an_uong,158A Bùi Thị Xuân,https://www.openstreetmap.org/node/4369409590,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4600025690,Nhà hàng Cố Đô,an_uong,,https://www.openstreetmap.org/node/4600025690,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-4676482492,Nhà Hàng Út Cà Mau,an_uong,"512-514 Nguyễn Thị Minh Khai, P. 2, Quận 3",https://www.openstreetmap.org/node/4676482492,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5107196723,Cơm Tấm 419,an_uong,"417 An Dương Vương, Phường Chợ Quán",https://www.openstreetmap.org/node/5107196723,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5617113061,The Coffee Bean & Tea Leaf,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5617113061,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5676727923,Trà Sữa Bocha,an_uong,187 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727923,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5676727924,Nhà Hàng Sushi MH,an_uong,193 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/5676727924,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5684857023,Mía Crush,an_uong,29 Nguyễn Trãi,https://www.openstreetmap.org/node/5684857023,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-5951707086,Banh Canh Cua 14,an_uong,Đường Trần Bình Trọng,https://www.openstreetmap.org/node/5951707086,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315672442,Nhà Hàng Bê Vàng,an_uong,,https://www.openstreetmap.org/node/6315672442,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315672443,Passio Coffee,an_uong,213 Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672443,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315672819,Bún Bò Viên,an_uong,,https://www.openstreetmap.org/node/6315672819,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315672823,Trà Sữa MayCha,an_uong,213E Nguyễn Văn Cừ,https://www.openstreetmap.org/node/6315672823,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315672824,Nhà Hàng Biển Việt,an_uong,,https://www.openstreetmap.org/node/6315672824,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315686502,Cafe Sài Gòn Xưa,an_uong,,https://www.openstreetmap.org/node/6315686502,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315687014,Nhà Hàng Phúc An Khang,an_uong,,https://www.openstreetmap.org/node/6315687014,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6315687795,Cafe ViEn,an_uong,,https://www.openstreetmap.org/node/6315687795,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6645617788,Nhà hàng Ếch Xanh,an_uong,371D Đường Nguyễn Cảnh Chân,https://www.openstreetmap.org/node/6645617788,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-6646675191,Gỏi cuốn Ngon Ngon,an_uong,322/15 Đường An Dương Vương,https://www.openstreetmap.org/node/6646675191,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-node-729602660,KFC,an_uong,Đường Nguyễn Thái Học,https://www.openstreetmap.org/node/729602660,0,Gà rán KFC; không bán pizza,claude-draft,Tran Dat,2026-09-18
+Q12,osm-way-1043358641,Demon Kitchen Tai Pai Dong,an_uong,"265 An Dương Vương, Quận 5",https://www.openstreetmap.org/way/1043358641,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-way-1184231456,Căn Tin Ngọc Huệ,an_uong,235 Nguyễn Văn Cừ,https://www.openstreetmap.org/way/1184231456,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-way-1417141539,Canteen SGU,an_uong,,https://www.openstreetmap.org/way/1417141539,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-way-1463054089,Long,an_uong,125 Đường Nguyễn Trãi,https://www.openstreetmap.org/way/1463054089,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18
+Q12,osm-way-1463633179,Coffee 161,an_uong,161 Đường Trần Bình Trọng,https://www.openstreetmap.org/way/1463633179,0,Không bán pizza theo nguồn hiện có,claude-draft,Tran Dat,2026-09-18

@@ -1,0 +1,87 @@
+{
+  "dataset_scope_m": 2000,
+  "categories": [
+    { "id": "an_uong", "label": "Ăn uống" },
+    { "id": "tien_loi", "label": "Cửa hàng tiện lợi" },
+    { "id": "vpp_photocopy", "label": "Văn phòng phẩm / photocopy" },
+    { "id": "nha_tro", "label": "Nhà trọ" },
+    { "id": "tram_xang", "label": "Trạm xăng" },
+    { "id": "tram_xe_buyt", "label": "Trạm xe buýt" }
+  ],
+  "search": {
+    "allowed_radii_m": [300, 500, 1000, 2000],
+    "default_radius_m": 1000,
+    "max_query_chars": 120,
+    "default_limit": 50,
+    "max_limit": 100,
+    "sort_modes": ["distance", "bm25", "combined"],
+    "default_sort": "distance"
+  },
+  "ranking": {
+    "bm25_column_weights": { "name": 2.0, "category": 1.0, "description": 1.0, "tags": 1.0 },
+    "combined_weights": { "text": 0.6, "geo": 0.4 },
+    "weights_note": "Trọng số đặt tay, chưa huấn luyện hay tối ưu"
+  },
+  "spell": {
+    "enabled": true,
+    "min_len": 4,
+    "long_len": 5,
+    "max_edits_short": 1,
+    "max_edits_long": 2,
+    "max_merge": 4,
+    "note":"Chỉ sửa token không có trong từ vựng chỉ mục; token < min_len ký tự không sửa; từ long_len ký tự trở lên cho phép max_edits_long lỗi"
+  },
+  "ocr": {
+    "max_text_chars": 2000,
+    "max_input_tokens": 200,
+    "max_query_tokens": 10,
+    "max_df_ratio": 0.5,
+    "search_radius_m": 2000,
+    "note": "Chữ đọc từ ảnh biển hiệu (Tesseract.js trong trình duyệt) → lọc thành truy vấn → tìm kiểu OR, xếp BM25. max_df_ratio 0,5 theo ngưỡng FTS5 kẹp IDF"
+  },
+  "itinerary": {
+    "min_legs": 2,
+    "max_legs": 4,
+    "default_legs_hint": ["cà phê", "cơm", "phim"],
+    "search_radius_m": 2000,
+    "max_candidates_per_leg": 8,
+    "detour_factor": 1.3,
+    "walking_speed_mps": 1.24,
+    "default_dwell_min": 45,
+    "allowed_max_distance_m": [1500, 2000, 3000, 5000],
+    "default_max_distance_m": 3000,
+    "max_results": 3,
+    "weights": { "text": 0.5, "geo": 0.5 },
+    "note": "Lộ trình nhiều chặng (vd cà phê → cơm → phim): không phải truy vấn top-k đơn mà là vét cạn tổ hợp trên ứng viên khớp từ khóa mỗi chặng (BM25), lọc theo tổng quãng đường ước tính = Haversine × detour_factor (đặt tay). walking_speed_mps theo D-05 (đo trên một tuyến OSRM thật, 1,24 m/s). Không xử lý giờ chiếu/giờ mở cửa; ngân sách thời gian chỉ là đi bộ ước tính cộng thời gian ở mỗi chặng do người dùng tự nhập (default_dwell_min). search_radius_m phải nằm trong search.allowed_radii_m để tái dùng /api/whynot cho từng chặng"
+  },
+  "whynot": {
+    "k": 5,
+    "lambda": 0.5,
+    "max_changes": 2,
+    "max_suggestions": 5,
+    "add_token_candidates": 2,
+    "max_drop_tokens": 4,
+    "costs": { "drop_token": 1.0, "add_token": 1.0, "radius": 1.0, "category": 0.5, "sort": 0.5, "alpha": 1.0 },
+    "note": "penalty = lambda × Δk + (1 − lambda) × Δq theo He & Lo (ICDE 2012), Chen et al. (ICDE 2015, 2016). lambda và các chi phí đặt tay, chưa tối ưu"
+  },
+  "geofence": {
+    "enter_m": 100,
+    "exit_m": 130,
+    "confirm_samples": 2,
+    "cooldown_s": 30,
+    "max_accuracy_m": 50
+  },
+  "routing": {
+    "provider": "FOSSGIS routing.openstreetmap.de (OSRM)",
+    "base_url": "https://routing.openstreetmap.de/routed-foot",
+    "mode_label": "đi bộ",
+    "timeout_s": 6,
+    "attribution": "Tuyến đường: FOSSGIS e.V. / OSRM, dữ liệu © OpenStreetMap contributors",
+    "fix_the_map_url": "https://www.openstreetmap.org/fixthemap"
+  },
+  "map": {
+    "tile_url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "max_zoom": 19,
+    "copyright_url": "https://www.openstreetmap.org/copyright"
+  }
+}

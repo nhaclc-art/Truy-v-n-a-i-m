@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b63ce">
+  <title>GeoRank HCMUE</title>
+  <link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <div class="app">
+    <header class="appbar">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/>
+        </svg>
+        <div class="brand-text">
+          <h1>GeoRank HCMUE</h1>
+          <p id="campus-name">Tìm tiện ích quanh trường theo từ khóa và vị trí</p>
+        </div>
+      </div>
+      <div class="appbar-actions">
+        <span class="dataset-chip" id="dataset-version" title="Phiên bản dữ liệu đang dùng"></span>
+        <button type="button" class="btn btn-help" id="btn-help" aria-haspopup="dialog" title="Hướng dẫn sử dụng">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm0 11.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 6a3.5 3.5 0 0 1 1.3 6.75c-.5.2-.8.55-.8 1v.25h-2v-.25c0-1.3.8-2.4 2-2.85A1.5 1.5 0 1 0 10.5 9.5h-2A3.5 3.5 0 0 1 12 6Z"/></svg>
+          <span class="btn-help-label">Hướng dẫn</span>
+        </button>
+      </div>
+    </header>
+
+    <aside class="panel" id="panel">
+      <button type="button" class="sheet-handle" id="sheet-handle" aria-label="Mở rộng hoặc thu gọn danh sách">
+        <span class="grip" aria-hidden="true"></span>
+        <span class="sheet-summary" id="sheet-summary"></span>
+      </button>
+
+      <form class="search" id="search-form" role="search" autocomplete="off">
+        <label class="searchbox">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.96 12.05l4.25 4.24-1.42 1.42-4.24-4.25A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+          <input type="search" id="q" maxlength="120" aria-label="Từ khóa" enterkeyhint="search"
+                 placeholder="Tìm quán ăn, photocopy, Circle K…">
+          <button type="button" class="mic-btn" id="btn-photo" aria-label="Tìm bằng ảnh biển hiệu" title="Chụp hoặc chọn ảnh biển hiệu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6l1.8 2H20a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h3.2L9 3Zm3 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"/></svg>
+          </button>
+          <button type="button" class="mic-btn" id="btn-mic" aria-pressed="false" aria-label="Tìm bằng giọng nói" title="Tìm bằng giọng nói" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z"/></svg>
+          </button>
+        </label>
+        <input type="file" id="photo-input" accept="image/*" capture="environment" hidden>
+
+        <fieldset class="chips" id="category-group">
+          <legend>Danh mục</legend>
+        </fieldset>
+
+        <div class="option-row">
+          <fieldset class="segmented" id="radius-group">
+            <legend>Bán kính</legend>
+          </fieldset>
+          <fieldset class="segmented" id="sort-group">
+            <legend>Xếp hạng</legend>
+          </fieldset>
+        </div>
+      </form>
+
+      <section class="card-block origin" id="origin-card" aria-live="polite">
+        <div class="origin-head">
+          <span class="mode-badge" id="origin-badge"></span>
+          <strong id="origin-title"></strong>
+        </div>
+        <p class="origin-sub" id="origin-sub"></p>
+        <p class="origin-status" id="origin-status" hidden></p>
+        <div class="origin-actions">
+          <button type="button" class="btn" id="btn-gps" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-1-7h2v3.06A8 8 0 0 1 19.94 11H23v2h-3.06A8 8 0 0 1 13 19.94V23h-2v-3.06A8 8 0 0 1 4.06 13H1v-2h3.06A8 8 0 0 1 11 4.06V1Zm1 5a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg>
+            Vị trí của tôi
+          </button>
+          <button type="button" class="btn" id="btn-simulate" aria-pressed="false">Mô phỏng</button>
+          <button type="button" class="btn btn-ghost" id="btn-reference">Tâm khuôn viên</button>
+        </div>
+      </section>
+
+      <section class="results" aria-label="Kết quả">
+        <div class="results-head">
+          <p class="results-status" id="status" role="status"></p>
+          <button type="button" class="btn-link whynot-open" id="btn-whynot">Không thấy chỗ bạn cần?</button>
+          <button type="button" class="btn-link itinerary-open" id="btn-itinerary">Lập lộ trình nhiều chặng</button>
+        </div>
+        <p class="note voice-note" id="voice-note" hidden></p>
+        <p class="note ocr-note" id="ocr-note" hidden></p>
+        <p class="note spell-note" id="spell-note" hidden></p>
+        <p class="note alpha-chip" id="alpha-chip" hidden></p>
+        <ol class="result-list" id="result-list"></ol>
+        <details class="explain" id="explain">
+          <summary>Giải thích kết quả</summary>
+          <div id="explain-body"></div>
+        </details>
+      </section>
+    </aside>
+
+    <main class="map-area">
+      <div id="map" role="region" aria-label="Bản đồ kết quả"></div>
+      <div class="map-activity" id="map-activity">
+        <section class="card-block activity ocr-card" id="ocr-card" hidden aria-live="polite"></section>
+        <section class="card-block activity whynot-card" id="whynot-card" hidden aria-live="polite"></section>
+        <section class="card-block activity itinerary-card" id="itinerary-card" hidden aria-live="polite"></section>
+        <section class="card-block activity" id="route-card" hidden aria-live="polite"></section>
+        <section class="card-block activity" id="geofence-card" hidden aria-live="polite"></section>
+      </div>
+      <button type="button" class="map-fab" id="fab-locate" aria-pressed="false" aria-label="Vị trí của tôi" title="Vị trí của tôi">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-1-7h2v3.06A8 8 0 0 1 19.94 11H23v2h-3.06A8 8 0 0 1 13 19.94V23h-2v-3.06A8 8 0 0 1 4.06 13H1v-2h3.06A8 8 0 0 1 11 4.06V1Zm1 5a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg>
+      </button>
+    </main>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="assertive"></div>
+
+  <dialog class="help-dialog" id="help-dialog" aria-labelledby="help-title">
+    <div class="help-head">
+      <h2 id="help-title">Hướng dẫn sử dụng</h2>
+      <button type="button" class="btn-icon" id="help-close" aria-label="Đóng hướng dẫn">×</button>
+    </div>
+    <div class="help-body">
+      <section>
+        <h3>1. Tìm địa điểm</h3>
+        <p>Gõ từ khóa vào ô tìm kiếm, có dấu hay không dấu đều được ("văn phòng phẩm" = "van phong pham"). Viết tắt được hiểu sẵn: <b>vpp</b>, <b>photo</b>, <b>cafe</b>, <b>coffee</b>, <b>bus</b>. Mọi từ gõ vào đều phải có trong thông tin địa điểm, nên gõ ít từ sẽ ra nhiều kết quả hơn. Để trống ô tìm kiếm để xem mọi địa điểm gần nhất.</p>
+        <p>Gõ sai, gõ dính hoặc sót chữ Telex ("photocoppy", "circlek", "tra suwa") thì ứng dụng tự sửa và báo "Đã hiểu … là …". Bấm <b>Tìm đúng như đã gõ</b> nếu không muốn sửa. Từ tiếng Việt đúng chính tả không bị sửa, kể cả khi dữ liệu không có từ đó.</p>
+        <p>Bấm biểu tượng <b>micro</b> trong ô tìm kiếm để nói, ví dụ "cây xăng gần đây". Câu nghe được hiện vào ô tìm kiếm và được tìm ngay; nếu nghe nhầm, chọn một cách nghe khác trong dòng "Nghe được". Cần Chrome, Edge hoặc Safari, cho phép micro, có Internet, và trang phải mở qua HTTPS hoặc localhost.</p>
+        <p>Bấm biểu tượng <b>máy ảnh</b> để chụp (trên điện thoại) hoặc chọn ảnh biển hiệu. Ứng dụng đọc chữ trên ảnh <b>ngay trong trình duyệt</b> (ảnh không gửi đi đâu), bỏ số điện thoại, địa chỉ và các từ không giúp phân biệt, rồi tìm địa điểm khớp nhiều từ nhất. Lần đầu phải nạp bộ đọc chữ khoảng 5–8 MB.</p>
+      </section>
+      <section>
+        <h3>2. Lọc</h3>
+        <p>Chọn <b>danh mục</b> (ăn uống, tiện lợi, văn phòng phẩm/photocopy, nhà trọ, trạm xăng, trạm xe buýt) và <b>bán kính</b> 300 m đến 2 km. Khoảng cách tính theo đường chim bay.</p>
+      </section>
+      <section>
+        <h3>3. Cách xếp hạng</h3>
+        <ul>
+          <li><b>Gần nhất</b>: chỗ gần vị trí gốc nhất lên đầu.</li>
+          <li><b>Đúng từ khóa</b>: chỗ khớp từ khóa rõ nhất lên đầu (điểm BM25).</li>
+          <li><b>Kết hợp</b>: cân bằng 60% độ khớp từ khóa và 40% độ gần.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>4. Vị trí gốc</h3>
+        <ul>
+          <li><b>Tâm khuôn viên</b> (mặc định): tâm cơ sở 280 An Dương Vương, không phải vị trí của bạn.</li>
+          <li><b>Vị trí của tôi</b>: dùng định vị của trình duyệt, cần cho phép quyền vị trí. Máy tính có thể định vị sai lệch nhiều.</li>
+          <li><b>Mô phỏng</b>: bấm lên bản đồ hoặc kéo chấm cam để giả lập vị trí khi trình diễn.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>5. Chỉ đường</h3>
+        <p>Bấm <b>Chỉ đường</b> trên một địa điểm để vẽ tuyến <b>đi bộ</b>, kèm quãng đường và số phút ước tính. Nút <b>Mở Google Maps</b> mở chỉ đường ở ngoài ứng dụng.</p>
+      </section>
+      <section>
+        <h3>6. Theo dõi vùng 100 m</h3>
+        <p>Bấm <b>Theo dõi 100 m</b>, rồi bật Vị trí của tôi hoặc Mô phỏng. Ứng dụng báo khi bạn vào vùng (≤ 100 m) và ra khỏi vùng (≥ 130 m), sau 2 lần đo liên tiếp. Chỉ hoạt động khi trang đang mở.</p>
+      </section>
+      <section>
+        <h3>7. Giải thích kết quả</h3>
+        <p>Mở mục <b>Giải thích kết quả</b> ở cuối danh sách để xem từ khóa sau chuẩn hóa, số địa điểm qua từng bước lọc và điểm của từng kết quả.</p>
+      </section>
+      <section>
+        <h3>8. Vì sao không thấy một địa điểm?</h3>
+        <p>Khi một chỗ bạn biết không nằm trong 5 kết quả đầu, bấm <b>Không thấy chỗ bạn cần?</b> cạnh dòng trạng thái và gõ tên chỗ đó. Ứng dụng cho thấy nó dừng ở bước nào (khớp từ khóa → danh mục → bán kính → 5 kết quả đầu) và vì sao, rồi đề xuất vài cách sửa truy vấn ít nhất. Bấm <b>Áp dụng</b> để chạy truy vấn đã sửa. Mọi đề xuất đều đã được chạy thử trước khi hiển thị.</p>
+      </section>
+      <section>
+        <h3>9. Lập lộ trình nhiều chặng</h3>
+        <p>Bấm <b>Lập lộ trình nhiều chặng</b> cạnh dòng trạng thái. Nhập từ khóa cho mỗi chặng (gợi ý sẵn: cà phê → cơm → phim), chọn tổng quãng đường tối đa và thời gian dự kiến ở mỗi chặng, rồi bấm <b>Lập lộ trình</b>.</p>
+        <p>Ứng dụng thử mọi tổ hợp địa điểm khớp từ khóa từng chặng, tính tổng quãng đường bằng đường chim bay <b>nhân một hệ số quanh co</b> (ước tính, không phải quãng đường phố thật) và giữ các tổ hợp trong ngân sách. Ba lộ trình tốt nhất được xếp theo độ khớp từ khóa và độ ngắn. Bấm <b>Chỉ đường thật</b> trên một lộ trình để tính lại từng chặng bằng máy chủ chỉ đường thật (OSRM) và vẽ trên bản đồ.</p>
+        <p class="fineprint">Không xử lý giờ chiếu phim, giờ mở cửa hay tình trạng còn chỗ. Thời gian hiển thị chỉ là đi bộ ước tính cộng thời gian ở mỗi chặng do bạn tự nhập. Corpus không có danh mục rạp phim nên chặng "phim" trong gợi ý sẵn luôn báo không khớp; đổi sang một từ khóa có trong dữ liệu (ví dụ "xe buýt") để xem đủ lộ trình.</p>
+      </section>
+      <section>
+        <h3>10. Trên điện thoại</h3>
+        <p>Kéo thanh xám ở đầu danh sách lên hoặc xuống (hoặc chạm vào thanh) để mở rộng, thu gọn. Chạm một kết quả để xem trên bản đồ; chạm marker để xem thẻ tương ứng. Nút tròn góc phải bản đồ bật vị trí của bạn.</p>
+      </section>
+      <section>
+        <h3>11. Về dữ liệu</h3>
+        <p>Dữ liệu lấy từ OpenStreetMap (snapshot) và tin đăng công khai, có thể thiếu hoặc cũ. Nhãn "đã đối chiếu" nghĩa là đã so với một nguồn khác.</p>
+        <p class="fineprint" id="help-dataset"></p>
+      </section>
+    </div>
+  </dialog>
+
+  <script src="/static/vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

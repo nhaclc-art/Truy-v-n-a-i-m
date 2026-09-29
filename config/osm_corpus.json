@@ -1,0 +1,58 @@
+{
+  "note": "Luật cố định để dựng bản nháp corpus từ snapshot OSM. Mô tả tiếng Việt gắn theo tag OSM, không theo từng POI. Luật đầu tiên khớp được dùng; luật không có key chỉ so name_pattern. name_pattern so trên tên đã chuẩn hóa (không dấu). Tên lấy từ tag name, thiếu thì từ brand. unnamed_label chỉ dùng cho POI không tên nằm trong unnamed_within_m.",
+  "rules": [
+    { "key": "amenity", "value": "restaurant", "category": "an_uong", "tags_vi": "nhà hàng quán ăn", "unnamed_label": "Quán ăn (chưa rõ tên)" },
+    { "key": "amenity", "value": "fast_food", "category": "an_uong", "tags_vi": "đồ ăn nhanh", "unnamed_label": "Quán đồ ăn nhanh (chưa rõ tên)" },
+    { "key": "amenity", "value": "cafe", "category": "an_uong", "tags_vi": "quán cà phê", "unnamed_label": "Quán cà phê (chưa rõ tên)" },
+    { "key": "amenity", "value": "food_court", "category": "an_uong", "tags_vi": "khu ẩm thực", "unnamed_label": "Khu ẩm thực (chưa rõ tên)" },
+    { "key": "amenity", "value": "fuel", "category": "tram_xang", "tags_vi": "trạm xăng; cây xăng; cửa hàng xăng dầu" },
+    { "key": "highway", "value": "bus_stop", "category": "tram_xe_buyt", "tags_vi": "trạm xe buýt; điểm dừng xe buýt" },
+    { "key": "shop", "value": "convenience", "category": "tien_loi", "tags_vi": "cửa hàng tiện lợi" },
+    { "key": "shop", "value": "stationery", "category": "vpp_photocopy", "tags_vi": "văn phòng phẩm" },
+    { "key": "shop", "value": "copyshop", "category": "vpp_photocopy", "tags_vi": "photocopy in ấn" },
+    {
+      "key": "shop",
+      "value": "books",
+      "category": "vpp_photocopy",
+      "tags_vi": "nhà sách",
+      "name_pattern": "\\b(van phong pham|vpp|photo|photocopy)\\b"
+    },
+    {
+      "category": "tien_loi",
+      "tags_vi": "cửa hàng tiện lợi",
+      "name_pattern": "^(circle k|family ?mart|gs ?25|ministop|7 eleven|b s mart|winmart)\\b"
+    }
+  ],
+  "cuisine_vi": {
+    "vietnamese": "món Việt",
+    "pho": "phở",
+    "noodle": "mì bún",
+    "rice": "cơm",
+    "bubble_tea": "trà sữa",
+    "coffee_shop": "cà phê",
+    "tea": "trà",
+    "chicken": "gà",
+    "fried_chicken": "gà rán",
+    "japanese": "món Nhật",
+    "korean": "món Hàn",
+    "chinese": "món Hoa",
+    "thai": "món Thái",
+    "seafood": "hải sản",
+    "vegetarian": "chay",
+    "vegan": "chay",
+    "hot_pot": "lẩu",
+    "barbecue": "nướng",
+    "bbq": "nướng",
+    "ice_cream": "kem",
+    "juice": "nước ép"
+  },
+  "per_ring_quota": {
+    "an_uong": { "300": null, "500": null, "1000": 4, "2000": 4 },
+    "tien_loi": { "300": null, "500": null, "1000": 4, "2000": 3 },
+    "vpp_photocopy": { "300": null, "500": null, "1000": null, "2000": null },
+    "tram_xang": { "300": null, "500": null, "1000": null, "2000": 3 },
+    "tram_xe_buyt": { "300": null, "500": null, "1000": 4, "2000": 3 }
+  },
+  "unnamed_within_m": 300,
+  "dedupe_distance_m": 30
+}

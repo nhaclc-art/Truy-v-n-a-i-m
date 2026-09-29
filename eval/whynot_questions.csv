@@ -1,0 +1,16 @@
+question_id,query,origin_lat,origin_lon,radius_m,category,sort,poi_id,poi_name,expected_reason,information_need,labeled_by,reviewed_by,reviewed_at
+W01,chỗ in tài liệu,10.761357,106.6821769,1000,vpp_photocopy,combined,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,TEXT,"Sinh viên gõ theo nhu cầu ""in tài liệu"", mong thấy tiệm photocopy trong 1 km",claude-draft,Tran Dat,2026-09-23
+W02,đổ xăng,10.761357,106.6821769,1000,tram_xang,distance,osm-way-718979564,Petrolimex,TEXT,"Gõ ""đổ xăng"", mong thấy cây xăng Petrolimex 99 Nguyễn Văn Cừ (khoảng 260 m)",claude-draft,Tran Dat,2026-09-23
+W03,cà phê sữa đá,10.761357,106.6821769,500,an_uong,combined,osm-node-2614395027,Cà Phê Rita Võ,TEXT,"Gõ tên món, mong thấy quán cà phê Rita Võ sát trường",claude-draft,Tran Dat,2026-09-23
+W04,circle k,10.761357,106.6821769,300,an_uong,distance,osm-node-6727039411,Circle K,CATEGORY,Tìm Circle K nhưng quên bỏ lọc Ăn uống,claude-draft,Tran Dat,2026-09-23
+W05,gs25,10.761357,106.6821769,300,an_uong,distance,osm-node-6791076695,GS25,CATEGORY,Tìm GS25 nhưng đang lọc Ăn uống,claude-draft,Tran Dat,2026-09-23
+W06,pizza,10.761357,106.6821769,300,an_uong,distance,osm-node-4089385463,Pizza Hut,RADIUS,"Tìm pizza trong 300 m, Pizza Hut 235 Nguyễn Văn Cừ cách khoảng 317 m",claude-draft,Tran Dat,2026-09-23
+W07,cây xăng,10.761357,106.6821769,500,tram_xang,distance,osm-way-722046446,Cửa Hàng Xăng Dầu Petrolimex,RADIUS,Mong thấy cây xăng 444 Trần Hưng Đạo (khoảng 590 m) khi chọn 500 m,claude-draft,Tran Dat,2026-09-23
+W08,photocopy,10.761357,106.6821769,500,vpp_photocopy,distance,osm-node-6741927785,Tiệm Photocopy Ngọc Lan,RADIUS,"Tìm photocopy trong 500 m, tiệm Ngọc Lan cách gần 1 km",claude-draft,Tran Dat,2026-09-23
+W09,cà phê,10.761357,106.6821769,500,an_uong,distance,osm-node-2078561313,Cafe Thềm Xưa,RANK,Chế độ Gần nhất: quán cà phê sân vườn yêu thích bị các quán gần hơn đẩy xuống,claude-draft,Tran Dat,2026-09-23
+W10,cà phê,10.761357,106.6821769,500,an_uong,bm25,osm-node-13913454078,Cà phê Nha,RANK,"Chế độ BM25: quán tên có ""cà phê"" nhưng không vào top 5",claude-draft,Tran Dat,2026-09-23
+W11,cà phê,10.761357,106.6821769,500,an_uong,combined,osm-way-1463633179,Coffee 161,RANK,Chế độ Kết hợp: quán cà phê hơi xa bị xếp sau,claude-draft,Tran Dat,2026-09-23
+W12,xe buýt,10.761357,106.6821769,500,tram_xe_buyt,distance,osm-node-11755184295,Chợ Bầu Sen,RANK,"Cần trạm Chợ Bầu Sen (tuyến về nhà), 20 trạm trong 500 m",claude-draft,Tran Dat,2026-09-23
+W13,ăn sáng,10.761357,106.6821769,500,an_uong,combined,osm-way-1417141539,Canteen SGU,TEXT,"Tìm chỗ ăn sáng; dữ liệu OSM của căng tin ghi ""breakfast"" bằng tiếng Anh",claude-draft,Tran Dat,2026-09-23
+W14,siêu thị,10.761357,106.6821769,500,tien_loi,distance,osm-node-6791076695,GS25,TEXT,"Sinh viên gọi cửa hàng tiện lợi là ""siêu thị mini""",claude-draft,Tran Dat,2026-09-23
+W15,đổ xăng,10.761357,106.6821769,300,tram_xang,distance,osm-way-722046446,Cửa Hàng Xăng Dầu Petrolimex,TEXT+RADIUS,Vừa lệch từ vựng vừa ngoài bán kính,claude-draft,Tran Dat,2026-09-23

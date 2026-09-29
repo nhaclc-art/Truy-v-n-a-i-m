@@ -1,0 +1,34 @@
+{
+  "campus_id": "hcmue-280-adv",
+  "name": "Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+  "site_name": "Cơ sở 280 An Dương Vương",
+  "address": "280 An Dương Vương, Thành phố Hồ Chí Minh",
+  "reference_point": {
+    "lat": 10.761357,
+    "lon": 106.6821769,
+    "kind": "campus_centroid",
+    "label": "Tâm khuôn viên theo OpenStreetMap, không phải tọa độ cổng",
+    "verified_at": "2026-09-18",
+    "verification_note": "Tâm (out center) của OSM way 140703173 có addr 280 Đường An Dương Vương. OSM node 9586952123 cùng tên trường cách khoảng 18 m. Truy vấn địa chỉ trên Nominatim không trả kết quả nên không dùng làm nguồn."
+  },
+  "sources": [
+    {
+      "type": "osm",
+      "id": "way/140703173",
+      "url": "https://www.openstreetmap.org/way/140703173",
+      "retrieved_at": "2026-09-18"
+    },
+    {
+      "type": "osm",
+      "id": "node/9586952123",
+      "url": "https://www.openstreetmap.org/node/9586952123",
+      "retrieved_at": "2026-09-18"
+    },
+    {
+      "type": "website",
+      "url": "https://hcmue.edu.vn/vi/",
+      "note": "Địa chỉ 280 An Dương Vương do người lập kế hoạch đối chiếu (docs/planning 02, 04)"
+    }
+  ],
+  "attribution": "Vị trí cơ sở: © OpenStreetMap contributors, ODbL 1.0"
+}
