@@ -1,19 +1,19 @@
 # GeoRank HCMUE
 
-Hệ thống truy vấn tiện ích lân cận dựa trên từ khóa và vị trí quanh cơ sở 280 An Dương Vương của Trường Đại học Sư phạm TP.HCM. Demo giữa kỳ môn Truy vấn thông tin: dữ liệu địa điểm có nguồn → chuẩn hóa → chỉ mục đảo SQLite FTS5 → truy xuất BM25 → lọc và xếp hạng theo khoảng cách → bản đồ, danh sách, chỉ đường, geofence → đánh giá Precision@5/Recall@5.
+Hệ thống truy vấn tiện ích lân cận dựa trên từ khóa và vị trí quanh cơ sở 280 An Dương Vương của Trường Đại học Sư phạm TP.HCM. Demo môn Truy vấn thông tin: dữ liệu địa điểm có nguồn → chuẩn hóa → chỉ mục đảo SQLite FTS5 → truy xuất BM25 → lọc và xếp hạng theo khoảng cách → bản đồ, danh sách, chỉ đường, geofence → đánh giá Precision@5/Recall@5.
 
 Hướng dẫn sử dụng từng chức năng, kịch bản demo và giải thích kỹ thuật chi tiết: `HUONG_DAN.md`. Số liệu, bảng kết quả và danh sách chỗ cần sửa cho tiểu luận/slide: `SO_LIEU_BAO_CAO.md`.
 
 ## Thông tin
 
 ```text
-Chủ tài khoản/tổ chức GitHub: [GITHUB_nhaclc]
-Tên repository: nhaclc-art
+Chủ tài khoản/tổ chức GitHub: nhaclc-art
+Tên repository: Truy-v-n-a-i-m
 URL repository: https://github.com/nhaclc-art/Truy-v-n-a-i-m
 Học viên thực hiện: Lê Ca Nhạc
 Giảng viên hướng dẫn: TS. Nguyễn Quốc Huy
 Cơ sở HCMUE sử dụng: Trường Đại học Sư phạm TP.HCM, cơ sở 280 An Dương Vương
-Ngày kiểm thử gần nhất: [29-09]
+Ngày kiểm thử gần nhất: [29-09-2026]
 ```
 
 Không ghi token hay mật khẩu vào file này. Trạng thái chi tiết từng tiêu chí ở mục 11.
@@ -181,7 +181,7 @@ Cập nhật bảng này ngay trước khi xuất bản ZIP cuối. Trạng thá
 | R2 Query ngoài kịch bản | PASS | Ca B3 đạt (người dùng xác nhận 18/09/2026); nên ghi lại query người kiểm tra đã chọn |
 | R3 Ba chế độ xếp hạng | PASS | Test tự động PASS; ca B7 đạt; đánh giá cho thấy thứ tự khác nhau trên cùng tập ứng viên |
 | R4 Kiểm tra quá trình truy vấn | PASS | Test API PASS; ca B8 đạt |
-| R5 Đánh giá IR | PASS | 12 truy vấn, 232 nhãn do Tran Dat duyệt; `scripts.evaluate` chạy 18/09/2026 trên `ds-7ac47a589e`; kết quả trong `eval/` |
+| R5 Đánh giá IR | PASS | 12 truy vấn, 232 nhãn do Nhaclc duyệt; `scripts.evaluate` chạy 18/09/2026 trên `ds-7ac47a589e`; kết quả trong `eval/` |
 | Thời gian phản hồi | Cần đo lại | `scripts.benchmark` 18/09/2026: `server_ms` median 0,54 / p95 0,86 ms, nhưng đo trên `ds-b3d684c628`; đo lại sau khi import `data\pois.csv --replace` về `ds-7ac47a589e` |
 | F01 Cài, import, chạy | Một phần | Chạy được trên máy phát triển; chưa thử từ ZIP sạch (F21) |
 | F02–F07, F10, F16–F20 | PASS (máy tính) | Ca B1–B12 đạt, người dùng xác nhận 18/09/2026 |
