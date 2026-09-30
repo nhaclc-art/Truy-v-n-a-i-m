@@ -4,16 +4,15 @@ Hệ thống truy vấn tiện ích lân cận dựa trên từ khóa và vị t
 
 Hướng dẫn sử dụng từng chức năng, kịch bản demo và giải thích kỹ thuật chi tiết: `HUONG_DAN.md`. Số liệu, bảng kết quả và danh sách chỗ cần sửa cho tiểu luận/slide: `SO_LIEU_BAO_CAO.md`.
 
-## Thông tin bàn giao
+## Thông tin
 
 ```text
 Chủ tài khoản/tổ chức GitHub: [GITHUB_nhaclc]
-Tên repository: [nhaclc-art]
-URL repository: [REPOSITORY_URL]
-Học viên thực hiện: [lecanhac]
-Người đóng góp và vai trò: [GVHD: TS. Nguyễn Quốc Huy]
+Tên repository: nhaclc-art
+URL repository: https://github.com/nhaclc-art/Truy-v-n-a-i-m
+Học viên thực hiện: Lê Ca Nhạc
+Giảng viên hướng dẫn: TS. Nguyễn Quốc Huy
 Cơ sở HCMUE sử dụng: Trường Đại học Sư phạm TP.HCM, cơ sở 280 An Dương Vương
-Phiên bản bàn giao: [RELEASE_VERSION]
 Ngày kiểm thử gần nhất: [29-09]
 ```
 
